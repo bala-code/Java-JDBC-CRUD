@@ -65,9 +65,9 @@ public class UserDb {
 			
 			
 			//# delete db
-			String sqldel = "DELETE FROM users WHERE user_id = 1";
-			java.sql.PreparedStatement statementdel = con.prepareStatement(sqldel);
-			statementdel.executeUpdate();
+			//String sqldel = "DELETE FROM users WHERE user_id = 1";
+			//java.sql.PreparedStatement statementdel = con.prepareStatement(sqldel);
+			//statementdel.executeUpdate();
 			
 			con.close();
 			
